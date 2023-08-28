@@ -11,6 +11,14 @@ hr{
     width:5%;
 }
 
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 body{
     margin: 0;
     text-align: center;
@@ -104,10 +112,21 @@ a:hover{
         width: 100%;
     }
 }
-@media (max-width:480px) {
+@media (max-width:1024px) {
     .intro{
         width: 100%;
         margin: 0 auto;
+    }
+    .abph{
+        width: 600px;
+        height: 200px;
+        position: relative;
+    }
+    .intro-1{
+        margin: 40% 1%;
+    }
+    .intro-1,h4{
+        text-align: center;
     }
 }
 
@@ -156,7 +175,7 @@ a:hover{
     color: #fff;
 }
 .intro-1{
-    padding: 8% 8% 0 0;
+    padding-top: 10%;
     text-align: left;
     line-height: 3;
     font-size: 1.2rem;
@@ -190,7 +209,7 @@ a:hover{
 }
 @media (max-width:1024px) {
     .cont{
-        padding-left: 25%;
+        padding-left: 15%;
     }
     .box{
         width: 80%;
