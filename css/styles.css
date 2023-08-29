@@ -107,15 +107,13 @@ a:hover{
     line-height: 3; 
     text-align: center;
 }
-@media (max-width:1024px ) {
-    .intro{
-        width: 100%;
+@media screen and (max-width:768px) {
+    .body{
+        width: 50%;
     }
-}
-@media (max-width:1024px) {
     .intro{
         width: 100%;
-        margin: 0 auto;
+        margin: 0 0;
     }
     .abph{
         width: 600px;
@@ -125,8 +123,13 @@ a:hover{
     .intro-1{
         margin: 40% 1%;
     }
-    .intro-1,h4{
+    .intro-1 h4{
         text-align: center;
+    }
+    .skill-row{
+        width: 100%;
+        padding: 0 20px;
+        margin: 30px auto;
     }
 }
 
@@ -161,7 +164,6 @@ a:hover{
     text-decoration: none;
  }
 .intro{
-    width:35%;
     margin: 0 auto;
 }
 .copy{
@@ -171,7 +173,7 @@ a:hover{
 
 }
 .navig{
-    background-color:#F0B86E;
+    background-color:#FF6969;
     color: #fff;
 }
 .intro-1{
