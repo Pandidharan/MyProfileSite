@@ -108,8 +108,8 @@ a:hover{
     text-align: center;
 }
 @media screen and (max-width:1024px) {
-    .body{
-        width: 50%;
+    body{
+        width: 100%;
     }
     .intro{
         width: 100%;
@@ -130,6 +130,9 @@ a:hover{
         width: 100%;
         padding: 0 20px;
         margin: 30px auto;
+    }
+    .skills{
+        width: 100%;
     }
 }
 
